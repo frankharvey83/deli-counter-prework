@@ -15,3 +15,4 @@ katz_deli.push(name)
 katz_deli.each_with_index {|value, index| puts "Welcome, #{value}. You are number #{index + 1} in line."
 end
 end
+end
