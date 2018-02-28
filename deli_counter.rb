@@ -11,10 +11,10 @@ else
 end
 
 def take_a_number(katz_deli, name)
-if katz_deli.length == 0 
+if katz_deli.length == 0
 katz_deli.push(name)
 katz_deli.each_with_index {|value, index| puts "Welcome, #{value}. You are number #{index + 1} in line."}
-else 
+else
   katz_deli.push(name)
   puts "Welcome, #{name}. You are number #{katz_deli} in line."
 end
