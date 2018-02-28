@@ -16,6 +16,6 @@ katz_deli.push(name)
 katz_deli.each_with_index {|value, index| puts "Welcome, #{value}. You are number #{index + 1} in line."}
 else
   katz_deli.push(name)
-  puts "Welcome, #{name}. You are number #{katz_deli} in line."
+  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
 end
